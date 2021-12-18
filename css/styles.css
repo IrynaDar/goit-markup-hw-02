@@ -6,6 +6,17 @@
     --second-text-color: #757575;
     --btn-color: #FFFFFF;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 body {
   font-family: Roboto, Raleway, sans-serif; ;
   color: var(--text-color);
@@ -13,10 +24,16 @@ body {
 .list {
     list-style: none;
 }
-.link {
+
+.header-link, 
+.link-mail, 
+.link-tel, 
+.footer-logo, 
+.link-address, 
+.link-email, 
+.link-tell {
   text-decoration: none;
 }
-
 /* --------шапка сайта------------ */
 
 .header-logo {
