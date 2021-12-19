@@ -98,7 +98,14 @@ color: var(--btn-color);
   background-color: var(--accent-color);
   color: var(--btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;   
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;   
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -204,6 +211,11 @@ span.part-color {
   color: var(--second-text-color);
 }
 .main-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   background-color: var(--second-back-color);
   color: var(--text-color);
   border-radius: 4px;
@@ -220,7 +232,7 @@ font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
-text-transform: uppercase;
+text-transform: normal;
 color: var(--text-color);
 }
 .portfolio-description {
